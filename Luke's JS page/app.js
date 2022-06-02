@@ -60,4 +60,6 @@ moreAlert.addEventListener('click', function handleClick3(event3) {
 
     const d = new Date();
     document.getElementById("date").innerHTML = d;
+
+    document.getElementById('blog').innerHTML += "\n";
 });
